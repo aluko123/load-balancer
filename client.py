@@ -10,7 +10,7 @@ for i in range(1, 11):
 
 
     #Send data
-    message = "Hello from client. This is message {} \n".format(i)
+    message = "Hello from client. This is message {}".format(i)
     client_socket.send(message.encode('utf-8'))
 
     #receive data
